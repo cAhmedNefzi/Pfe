@@ -24,6 +24,10 @@ Open `http://localhost:3000`.
 
 Set `AI_GATEWAY_API_KEY` in the server environment. The `/api/generate` route is intentionally isolated so provider credentials never reach the browser.
 
+## Deployment
+
+The project is configured for Vercel and connected to the `cAhmedNefzi/Pfe` GitHub repository. Pushes to `main` trigger production deployments.
+
 ## Roadmap
 
 1. Persist projects with Postgres
